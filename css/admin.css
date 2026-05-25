@@ -1,0 +1,65 @@
+.titulo{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+body{
+    min-height: 100vh;
+    background-image: radial-gradient(circle, white 10%, rgb(4, 92, 143));
+}
+
+.bajaUsuarios{
+    height: 75px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.5s, box-shadow 0.3s;
+    background: linear-gradient(rgb(52, 132, 163), rgb(162, 0, 255));
+    font-weight: bold;
+    color: rgb(2, 1, 1);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;      
+    font-size: 1rem;
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 140px;
+
+}
+
+.bajaUsuarios:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.reporteUsuarios{
+    height: 75px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.5s, box-shadow 0.3s;
+    background: linear-gradient(rgb(0, 183, 255), rgb(162, 0, 255));
+    font-weight: bold;
+    color: rgb(2, 1, 1);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;      
+    font-size: 1rem;
+    margin-left: 25%;
+    position: absolute;
+    margin-top: 140px;
+
+}
+
+.reporteUsuarios:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
